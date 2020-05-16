@@ -37,4 +37,4 @@ npm install
 - ・・・思いついたらまた追加
 
 ## AUTHOR
-NodeShells
+nodeshells
