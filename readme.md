@@ -15,7 +15,9 @@ npm install
 ## 現状で行えること
 - seleniumによるブラウザ制御デモ
 - WatsonのText to Speechを使用した音声合成のデモ<br>
-<img src="https://imgur.com/ptKVmqG">
+
+## イメージ画像
+![節美亜シンク](https://i.imgur.com/ptKVmqG.png?1 "サンプル")
 
 ## 使用しているライブラリやサービス
 - 伺か関連
