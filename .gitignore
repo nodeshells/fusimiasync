@@ -1,0 +1,9 @@
+ghost/master/profile
+ghost/master/secret
+ghost/master/node_modules
+ghost/master/sound
+shell/**/profile
+/ghost/master/save.json
+SHIOLINK.log
+*.nar
+.idea

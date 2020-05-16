@@ -1,0 +1,20 @@
+import {events} from "../shioriBuilder";
+
+const r = String.raw;
+events.OnInstallBegin = () => r`\h\s[0]インストールが開始しました。\e`;
+events.OnInstallComplete = () => r`\h\s[0]インストールが完了しました。\e`;
+events.OnInstallFailure = () => r`\h\s[0]インストールが失敗しました。\e`;
+events.OnInstallRefuse = () => r`\h\s[0]インストールを拒否しました。\e`;
+events.OnFileDropping = () => r`\h\s[0]ファイルがシェル上にドラッグされました。\e`;
+events.OnFileDropped = () => r`\h\s[0]ファイルがシェル上にドロップされました。\e`;
+events.OnFileDrop = () => r`\h\s[0]ファイルがシェル上にドロップされました。\e`;
+events.OnFileDrop2 = () => r`\h\s[0]ファイルがシェル上にドロップされました。\e`;
+events.OnDirectoryDrop = () => r`\h\s[0]ディレクトリがシェル上にドロップされました。\e`;
+events.OnWallpaperChange = () => r`\h\s[0]画像ファイルのドロップにより壁紙が変更されました。\e`;
+events.OnUpdatedataCreating = () => r`\h\s[0]アップデート情報を作成開始しました。\e`;
+events.OnUpdatedataCreated = () => r`\h\s[0]アップデート情報を作成完了しました。|`;
+events.OnNarCreating = () => r`\h\s[0]narを作成開始しました。\e`;
+events.OnNarCreated = () => r`\h\s[0]narを作成完了しました。\e`;
+events.OnURLDropping = () => r`\h\s[0]URLがシェル上にドロップされました。\e`;
+events.OnURLDropped = () => r`\h\s[0]シェル上にドロップされたURLをダウンロード完了しました。\e`;
+events.OnURLDropFailure = () => r`\h\s[0]シェル上にドロップされたURLをダウンロード失敗しました。\e`;

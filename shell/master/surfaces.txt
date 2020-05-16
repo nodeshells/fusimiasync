@@ -1,0 +1,387 @@
+descript
+{
+version,1
+}
+
+surface0-9,11-21
+{
+element0,overlay,surface999.png,0,0
+}
+
+
+
+surface.append0-9,11-21
+{
+//肌//
+10000interval,runonce
+animation10000.pattern0,overlay,1000,0,0,0
+}
+
+
+//#############################################################//
+//######################     各種部位    ######################//
+//#############################################################//
+
+//##   赤面  ##//
+surface.append2,14,20
+{
+10002interval,runonce
+animation10002.pattern0,overlay,1001,0,0,0
+}
+
+//##   強赤面  ##//
+surface.append15
+{
+10002interval,runonce
+animation10002.pattern0,overlay,1002,0,0,0
+}
+
+//##   蒼白  ##//
+surface.append12-13,18
+{
+10002interval,runonce
+animation10002.pattern0,overlay,1003,0,0,0
+}
+
+
+//##   通常目  ##//
+surface.append0,9,21
+{
+10006interval,runonce+rarely
+element0,overlay,0,0,0
+animation10006.pattern0,overlay,200,0,0,0
+animation10006.pattern1,overlay,203,50,0,0
+animation10006.pattern2,overlay,208,50,0,0
+animation10006.pattern3,overlay,209,50,0,0
+animation10006.pattern4,overlay,208,50,0,0
+animation10006.pattern5,overlay,203,50,0,0
+animation10006.pattern6,overlay,200,50,0,0
+
+}
+
+//##   目閉じ  ##//
+surface.append1,19
+{
+10006interval,runonce
+animation10006.pattern0,overlay,209,0,0,0
+
+}
+
+//##   笑目  ##//
+surface.append2
+{
+10006interval,runonce
+animation10006.pattern0,overlay,210,0,0,0
+
+}
+
+//##   そらし  ##//
+surface.append4,7
+{
+10006interval,runonce+rarely
+element0,overlay,0,0,0
+animation10006.pattern0,overlay,201,0,0,0
+animation10006.pattern1,overlay,202,50,0,0
+animation10006.pattern2,overlay,207,50,0,0
+animation10006.pattern3,overlay,209,50,0,0
+animation10006.pattern4,overlay,207,50,0,0
+animation10006.pattern5,overlay,202,50,0,0
+animation10006.pattern6,overlay,201,50,0,0
+}
+
+//##   半目   ##//
+surface.append3,8,14
+{
+10006interval,runonce+rarely
+element0,overlay,0,0,0
+animation10006.pattern0,overlay,203,0,0,0
+animation10006.pattern1,overlay,208,50,0,0
+animation10006.pattern2,overlay,209,50,0,0
+animation10006.pattern3,overlay,208,50,0,0
+animation10006.pattern4,overlay,203,50,0,0
+}
+
+//##   強そらし半目  ##//
+surface.append11,16
+{
+10006interval,runonce+rarely
+element0,overlay,0,0,0
+animation10006.pattern0,overlay,207,0,0,0
+animation10006.pattern1,overlay,209,50,0,0
+animation10006.pattern2,overlay,207,50,0,0
+}
+
+
+//##   強半目  ##//
+surface.append5,15
+{
+10006interval,runonce+rarely
+element0,overlay,0,0,0
+animation10006.pattern0,overlay,208,0,0,0
+animation10006.pattern1,overlay,209,50,0,0
+animation10006.pattern2,overlay,208,50,0,0
+}
+
+
+//##   驚き目  ##//
+surface.append6,18
+{
+10006interval,runonce+rarely
+element0,overlay,0,0,0
+animation10006.pattern0,overlay,204,0,0,0
+animation10006.pattern1,overlay,208,50,0,0
+animation10006.pattern2,overlay,209,50,0,0
+animation10006.pattern3,overlay,208,50,0,0
+animation10006.pattern4,overlay,204,50,0,0
+}
+
+//##   強驚き目  ##//
+surface.append12
+{
+10006interval,runonce
+element0,overlay,0,0,0
+animation10006.pattern0,overlay,205,0,0,0
+}
+
+//##   弓目  ##//
+surface.append13,17,20
+{
+10006interval,runonce+rarely
+element0,overlay,0,0,0
+animation10006.pattern0,overlay,206,0,0,0
+animation10006.pattern1,overlay,210,50,0,0
+animation10006.pattern2,overlay,206,50,0,0
+}
+
+//##   通常  ##//
+surface.append0,1,6,8
+{
+10009interval,runonce+talk,5
+animation10009.pattern0,overlay,217,0,0,0
+animation10009.pattern1,overlay,218,80,0,0
+animation10009.pattern2,overlay,224,80,0,0
+animation10009.pattern3,overlay,218,80,0,0
+animation10009.pattern4,overlay,221,80,0,0
+animation10009.pattern5,overlay,218,80,0,0
+animation10009.pattern6,overlay,217,80,0,0
+}
+
+//##   開口  ##//
+surface.append3
+{
+10009interval,runonce+talk,5
+animation10009.pattern0,overlay,218,0,0,0
+animation10009.pattern1,overlay,221,80,0,0
+animation10009.pattern2,overlay,224,80,0,0
+animation10009.pattern3,overlay,218,80,0,0
+animation10009.pattern4,overlay,221,80,0,0
+animation10009.pattern5,overlay,218,80,0,0
+}
+
+//##   強笑口  ##//
+surface.append16
+{
+10009interval,runonce+talk,5
+animation10009.pattern0,overlay,219,0,0,0
+animation10009.pattern1,overlay,222,80,0,0
+animation10009.pattern2,overlay,220,80,0,0
+animation10009.pattern3,overlay,219,80,0,0
+animation10009.pattern4,overlay,220,80,0,0
+animation10009.pattern5,overlay,219,80,0,0
+}
+
+//##   笑口  ##//
+surface.append12,14,20
+{
+10009interval,runonce+talk,5
+animation10009.pattern0,overlay,220,0,0,0
+animation10009.pattern1,overlay,219,80,0,0
+animation10009.pattern2,overlay,222,80,0,0
+animation10009.pattern3,overlay,220,80,0,0
+animation10009.pattern4,overlay,219,80,0,0
+animation10009.pattern5,overlay,220,80,0,0
+}
+
+//##   強開口  ##//
+surface.append5,15
+{
+10009interval,runonce+talk,5
+animation10009.pattern0,overlay,221,0,0,0
+animation10009.pattern1,overlay,221,80,0,0
+animation10009.pattern2,overlay,224,80,0,0
+animation10009.pattern3,overlay,218,80,0,0
+animation10009.pattern4,overlay,221,80,0,0
+animation10009.pattern5,overlay,218,80,0,0
+animation10009.pattern6,overlay,221,80,0,0
+}
+
+//##   閉笑口  ##//
+surface.append7,11,21
+{
+10009interval,runonce+talk,5
+animation10009.pattern0,overlay,222,0,0,0
+animation10009.pattern1,overlay,219,80,0,0
+animation10009.pattern2,overlay,222,80,0,0
+animation10009.pattern3,overlay,220,80,0,0
+animation10009.pattern4,overlay,219,80,0,0
+animation10009.pattern5,overlay,220,80,0,0
+animation10009.pattern6,overlay,222,80,0,0
+}
+
+//##   弓口  ##//
+surface.append2,9,17
+{
+10009interval,runonce+talk,5
+animation10009.pattern0,overlay,223,0,0,0
+animation10009.pattern1,overlay,219,80,0,0
+animation10009.pattern2,overlay,222,80,0,0
+animation10009.pattern3,overlay,220,80,0,0
+animation10009.pattern4,overlay,219,80,0,0
+animation10009.pattern5,overlay,220,80,0,0
+animation10009.pattern6,overlay,223,80,0,0
+}
+
+//##   強閉口  ##//
+surface.append13,18-19
+{
+10009interval,runonce+talk,5
+animation10009.pattern0,overlay,224,0,0,0
+animation10009.pattern1,overlay,217,80,0,0
+animation10009.pattern2,overlay,218,80,0,0
+animation10009.pattern3,overlay,224,80,0,0
+animation10009.pattern4,overlay,218,80,0,0
+animation10009.pattern5,overlay,221,80,0,0
+animation10009.pattern6,overlay,218,80,0,0
+animation10009.pattern7,overlay,224,80,0,0
+}
+
+//##   閉口  ##//
+surface.append4
+{
+10009interval,runonce+talk,5
+animation10009.pattern0,overlay,225,0,0,0
+animation10009.pattern1,overlay,217,80,0,0
+animation10009.pattern2,overlay,218,80,0,0
+animation10009.pattern3,overlay,224,80,0,0
+animation10009.pattern4,overlay,218,80,0,0
+animation10009.pattern5,overlay,221,80,0,0
+animation10009.pattern6,overlay,218,80,0,0
+animation10009.pattern7,overlay,225,80,0,0
+}
+
+
+//##   通常眉	##//
+surface.append0-2,7-8,12,14,18
+{
+10012interval,runonce
+animation10012.pattern0,overlay,211,0,0,0
+}
+
+//##   困惑眉	##//
+surface.append3,19
+{
+10012interval,runonce
+animation10012.pattern0,overlay,212,0,0,0
+}
+
+//##   怒り眉	##//
+surface.append5,11
+{
+10012interval,runonce
+animation10012.pattern0,overlay,213,0,0,0
+}
+
+//##	強怒り眉	##//
+surface.append4,15
+{
+10012interval,runonce
+animation10012.pattern0,overlay,214,0,0,0
+}
+
+//##   驚き眉	##//
+surface.append6,9,16,20
+{
+10012interval,runonce
+animation10012.pattern0,overlay,215,0,0,0
+}
+
+//##   呆れ眉	##//
+surface.append13,17,21
+{
+10012interval,runonce
+animation10012.pattern0,overlay,216,0,0,0
+}
+
+//#############################################################//
+//######################     触り判定    ######################//
+//#############################################################//
+
+surface.append0-9,11-21
+{
+collision0,85, 49, 159, 80,Head
+collision2,92, 92, 135, 138,Face
+collision3,81, 172, 130, 203,Bust
+collision4,153, 261, 178, 299,Hand
+collision5,64, 353, 109, 484,Reg
+collision6,114, 356, 153, 485,Reg
+collision7,86, 262, 111, 287,XXX
+}
+
+//#############################################################//
+//######################     着せ替え    ######################//
+//#############################################################//
+
+
+surface.append0-9,11-21
+{
+animation12000.interval,bind
+animation12000.pattern0,add,300,0,0,0
+animation13000.interval,bind
+animation13000.pattern0,overlay,301,0,0,0
+animation14000.interval,bind
+animation14000.pattern0,overlay,310,0,0,0
+animation15000.interval,bind
+animation15000.pattern0,overlay,311,0,0,0
+animation16000.interval,bind
+animation16000.pattern0,overlay,312,0,0,0
+animation17000.interval,bind
+animation17000.pattern0,overlay,313,0,0,0
+animation18000.interval,bind
+animation18000.pattern0,overlay,314,0,0,0
+animation19000.interval,bind
+animation19000.pattern0,overlay,315,0,0,0
+animation20000.interval,bind
+animation20000.pattern0,overlay,316,0,0,0
+animation21000.interval,bind
+animation21000.pattern0,overlay,317,0,0,0
+animation22000.interval,bind
+animation22000.pattern0,overlay,318,0,0,0
+animation23000.interval,bind
+animation23000.pattern0,overlay,319,0,0,0
+animation24000.interval,bind
+animation24000.pattern0,overlay,320,0,0,0
+animation25000.interval,bind
+animation25000.pattern0,overlay,321,0,0,0
+animation26000.interval,bind
+animation26000.pattern0,overlay,322,0,0,0
+animation27000.interval,bind
+animation27000.pattern0,overlay,323,0,0,0
+animation28000.interval,bind
+animation28000.pattern0,overlay,324,0,0,0
+animation29000.interval,bind
+animation29000.pattern0,overlay,325,0,0,0
+animation30000.interval,bind
+animation30000.pattern0,overlay,329,0,0,0
+animation31000.interval,bind
+animation31000.pattern0,overlay,326,0,0,0
+animation32000.interval,bind
+animation32000.pattern0,overlay,330,0,0,0
+animation33000.interval,bind
+animation33000.pattern0,overlay,327,0,0,0
+animation34000.interval,bind
+animation34000.pattern0,add,331,0,0,0
+animation35000.interval,bind
+animation35000.pattern0,add,328,0,0,0
+animation36000.interval,bind
+animation36000.pattern0,overlay,332,0,0,0
+}
