@@ -1,0 +1,11 @@
+charset,UTF-8
+craftman,nojil
+craftmanw,nojil
+craftmanurl,http://uraroji.bake-neko.net/
+
+
+id,green03
+name,silver
+type,shell
+seriko.use_self_alpha,1
+

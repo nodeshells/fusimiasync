@@ -12,4 +12,3 @@ export class RequestHelper {
   public static OK = OK;
   public static Response = Response;
 }
-

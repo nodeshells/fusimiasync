@@ -1,7 +1,6 @@
 import { auto, autow, chain, chainw, endchain, endchainw } from "sanajk";
 import { autoTalks } from "../shioriBuilder";
-
-const r = String.raw;
+import {r} from "../utils";
 
 autoTalks.add(
     r`\0\s[0]自動発話中にチェイントークを含めることもできます。\e`,

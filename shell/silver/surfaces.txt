@@ -1,0 +1,292 @@
+charset,Shift_JIS
+
+descript
+{
+	version,1
+}
+
+surface0
+{
+	//眉　素
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface11.png,0,0
+
+	//目　素
+	animation21.interval,runonce+periodic,5
+	animation21.pattern0,overlay,23,0,0,0
+	animation21.pattern1,overlay,22,80,0,0
+	animation21.pattern2,overlay,21,80,0,0
+
+	//口　素
+	animation32.interval,runonce+talk,4
+	animation32.pattern0,overlay,31,0,0,0
+	animation32.pattern1,overlay,32,130,0,0
+	animation32.pattern2,overlay,33,130,0,0
+	animation32.pattern3,overlay,31,130,0,0
+	animation32.pattern4,overlay,33,150,0,0
+	animation32.pattern5,overlay,32,130,0,0
+	animation32.pattern6,overlay,31,130,0,0
+
+
+
+}
+
+surface1
+{
+	//眉　悩み/照れ
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface11.png,0,0
+	element2,overlay,surface1.png,0,0
+
+	//目　素
+	animation21.interval,runonce+periodic,5
+	animation21.pattern0,overlay,23,0,0,0
+	animation21.pattern1,overlay,22,80,0,0
+	animation21.pattern2,overlay,21,80,0,0
+
+	//口　素
+	animation32.interval,runonce+talk,4
+	animation32.pattern0,overlay,31,0,0,0
+	animation32.pattern1,overlay,32,130,0,0
+	animation32.pattern2,overlay,33,130,0,0
+	animation32.pattern3,overlay,31,130,0,0
+	animation32.pattern4,overlay,33,150,0,0
+	animation32.pattern5,overlay,32,130,0,0
+	animation32.pattern6,overlay,31,130,0,0
+}
+
+surface2
+{
+	//眉　素/汗
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface11.png,0,0
+	element2,overlay,surface2.png,0,0
+
+	//目　刮目
+	animation26.interval,runonce
+	animation26.pattern0,overlay,23,0,0,0
+	animation26.pattern1,overlay,22,80,0,0
+	animation26.pattern2,overlay,21,90,0,0
+	animation26.pattern3,overlay,26,100,0,0
+
+	//口　おこ
+	animation36.interval,runonce+talk,4
+	animation36.pattern0,overlay,37,0,0,0
+	animation36.pattern1,overlay,38,130,0,0
+	animation36.pattern2,overlay,39,130,0,0
+	animation36.pattern3,overlay,37,130,0,0
+	animation36.pattern4,overlay,39,150,0,0
+	animation36.pattern5,overlay,38,130,0,0
+	animation36.pattern6,overlay,37,130,0,0
+}
+
+surface3
+{
+	//眉　困り/汗/半目
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface13.png,0,0
+	element2,overlay,surface2.png,0,0
+	element3,overlay,surface22.png,0,0
+
+	//口　素
+	animation32.interval,runonce+talk,4
+	animation32.pattern0,overlay,31,0,0,0
+	animation32.pattern1,overlay,32,130,0,0
+	animation32.pattern2,overlay,33,130,0,0
+	animation32.pattern3,overlay,31,130,0,0
+	animation32.pattern4,overlay,33,150,0,0
+	animation32.pattern5,overlay,32,130,0,0
+	animation32.pattern6,overlay,31,130,0,0
+}
+
+surface4
+{
+	//眉　困り/青ざめ/汗
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface13.png,0,0
+	element2,overlay,surface3.png,0,0
+	element3,overlay,surface2.png,0,0
+
+	//目　素
+	animation21.interval,runonce+periodic,5
+	animation21.pattern0,overlay,23,0,0,0
+	animation21.pattern1,overlay,22,80,0,0
+	animation21.pattern2,overlay,21,80,0,0
+
+
+	//口　おこ
+	animation36.interval,runonce+talk,4
+	animation36.pattern0,overlay,37,0,0,0
+	animation36.pattern1,overlay,38,130,0,0
+	animation36.pattern2,overlay,39,130,0,0
+	animation36.pattern3,overlay,37,130,0,0
+	animation36.pattern4,overlay,39,150,0,0
+	animation36.pattern5,overlay,38,130,0,0
+	animation36.pattern6,overlay,37,130,0,0
+}
+
+surface5
+{
+	//眉　素
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface11.png,0,0
+
+	//目　素
+	animation21.interval,runonce+periodic,5
+	animation21.pattern0,overlay,23,0,0,0
+	animation21.pattern1,overlay,22,80,0,0
+	animation21.pattern2,overlay,21,80,0,0
+
+	//口　微笑
+	animation34.interval,runonce+talk,4
+	animation34.pattern0,overlay,34,0,0,0
+	animation34.pattern1,overlay,35,130,0,0
+	animation34.pattern2,overlay,36,130,0,0
+	animation34.pattern3,overlay,34,130,0,0
+	animation34.pattern4,overlay,36,150,0,0
+	animation34.pattern5,overlay,35,130,0,0
+	animation34.pattern6,overlay,34,130,0,0
+}
+
+surface6
+{
+	//眉　素/目　閉じ
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface11.png,0,0
+	element2,overlay,surface23.png,0,0
+
+	//口　素
+	animation32.interval,runonce+talk,4
+	animation32.pattern0,overlay,31,0,0,0
+	animation32.pattern1,overlay,32,130,0,0
+	animation32.pattern2,overlay,33,130,0,0
+	animation32.pattern3,overlay,31,130,0,0
+	animation32.pattern4,overlay,33,150,0,0
+	animation32.pattern5,overlay,32,130,0,0
+	animation32.pattern6,overlay,31,130,0,0
+}
+
+surface7
+{
+	//眉　おこ/青ざめ
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface3.png,0,0
+	element2,overlay,surface12.png,0,0
+
+	//目　刮目
+	animation26.interval,runonce
+	animation26.pattern0,overlay,23,0,0,0
+	animation26.pattern1,overlay,22,80,0,0
+	animation26.pattern2,overlay,21,90,0,0
+	animation26.pattern3,overlay,26,100,0,0
+
+	//口　おこ
+	animation36.interval,runonce+talk,4
+	animation36.pattern0,overlay,37,0,0,0
+	animation36.pattern1,overlay,38,130,0,0
+	animation36.pattern2,overlay,39,130,0,0
+	animation36.pattern3,overlay,37,130,0,0
+	animation36.pattern4,overlay,39,150,0,0
+	animation36.pattern5,overlay,38,130,0,0
+	animation36.pattern6,overlay,37,130,0,0
+}
+
+surface8
+{
+	//眉　困り/目　半目
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface22.png,0,0
+	element2,overlay,surface14.png,0,0
+
+	//口　微笑
+	animation34.interval,runonce+talk,4
+	animation34.pattern0,overlay,34,0,0,0
+	animation34.pattern1,overlay,35,130,0,0
+	animation34.pattern2,overlay,36,130,0,0
+	animation34.pattern3,overlay,34,130,0,0
+	animation34.pattern4,overlay,36,150,0,0
+	animation34.pattern5,overlay,35,130,0,0
+	animation34.pattern6,overlay,34,130,0,0
+	
+}
+
+surface9
+{
+	//眉　おこ/照れ/汗
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface12.png,0,0
+	element2,overlay,surface1.png,0,0
+	element3,overlay,surface2.png,0,0
+
+	//目　素
+	animation21.interval,runonce+periodic,5
+	animation21.pattern0,overlay,23,0,0,0
+	animation21.pattern1,overlay,22,80,0,0
+	animation21.pattern2,overlay,21,80,0,0
+
+	//口　おこ
+	animation36.interval,runonce+talk,4
+	animation36.pattern0,overlay,37,0,0,0
+	animation36.pattern1,overlay,38,130,0,0
+	animation36.pattern2,overlay,39,130,0,0
+	animation36.pattern3,overlay,37,130,0,0
+	animation36.pattern4,overlay,39,150,0,0
+	animation36.pattern5,overlay,38,130,0,0
+	animation36.pattern6,overlay,37,130,0,0
+	
+	
+}
+
+surface11
+{
+	//眉　悩み/目　そらし
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface14.png,0,0
+	element2,overlay,surface24.png,0,0
+
+	//口　素
+	animation32.interval,runonce+talk,4
+	animation32.pattern0,overlay,31,0,0,0
+	animation32.pattern1,overlay,32,130,0,0
+	animation32.pattern2,overlay,33,130,0,0
+	animation32.pattern3,overlay,31,130,0,0
+	animation32.pattern4,overlay,33,150,0,0
+	animation32.pattern5,overlay,32,130,0,0
+	animation32.pattern6,overlay,31,130,0,0
+
+}
+
+
+surface12
+{
+	//眉　素/目　にっこり
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface11.png,0,0
+	element2,overlay,surface25.png,0,0
+
+	//口　微笑
+	animation34.interval,runonce+talk,4
+	animation34.pattern0,overlay,34,0,0,0
+	animation34.pattern1,overlay,35,130,0,0
+	animation34.pattern2,overlay,36,130,0,0
+	animation34.pattern3,overlay,34,130,0,0
+	animation34.pattern4,overlay,36,150,0,0
+	animation34.pattern5,overlay,35,130,0,0
+	animation34.pattern6,overlay,34,130,0,0
+}
+
+surface.append0-9,11-12
+{
+	//髪
+	animation40.interval,runonce
+	animation40.pattern0,overlay,40,0,0,0
+
+	//さわり反応領域
+	collision0,150,20,290,100,head
+	collision1,190,130,210,150,mouth
+	collision2,210,150,240,180,neck
+	collision3,160,200,245,270,bust
+	collision4,90,120,140,170,hand
+	collision5,260,410,310,470,hand
+	collision6,120,430,250,460,leg
+}

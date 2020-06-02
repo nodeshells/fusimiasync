@@ -16,8 +16,8 @@ import "chromedriver";
 import {IbmWatsonAuth} from "../../secret/keys";
 
 // ブラウザを開くデモ
-const urls = ["https://google.com", "https://www.youtube.com", "https://qiita.com"];
-events.OnOpenBrowser = () => {
+const urls = ["https://www.google.co.jp", "https://www.youtube.com", "https://qiita.com"];
+events.OnOpenBrowser = async () => {
   try {
     const capabilities = Capabilities.chrome();
     capabilities.set("chromeOptions", {
@@ -32,22 +32,22 @@ events.OnOpenBrowser = () => {
     const driver = new Builder().withCapabilities(capabilities).build();
     // rxjsで指定urlへ3秒ごとに遷移
     // 配列のインデックスが最後の要素に達っして3秒後にブラウザ終了
-    from(urls).pipe(
+    await from(urls).pipe(
         concatMap((item) => of(item).pipe(delay(3000))),
-        map((url, index) => {
-          driver.get(url);
-          if (index === (urls.length - 1)) {
+        map(async (url, index) => {
+            await driver.get(url);
+            if (index === (urls.length - 1)) {
             setTimeout(() => {
               driver.quit();
-            }, 3000);
+            }, 5000);
           }
         }),
-        take(urls.length))
-        .subscribe((data) => data, (err) => err);
+        take(urls.length)).toPromise();
+        // .subscribe((data) => data, (err) => err);
 
-    return r`\0\s[2]ブラウザの起動に成功したよ！\e`;
+    return r`\0\s[2]どうかな？上手く表示出来てるといいけど・・・。\e`;
   } catch (e) {
-    return r`\0\s[5]エラーが出たよ!読み上げるね。\n`
+    return r`\0\s[5]エラーが発生したよ!読み上げるね。\n`
         + r`${e}`;
   }
 };
