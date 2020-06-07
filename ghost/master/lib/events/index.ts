@@ -1,4 +1,5 @@
 import "./devtool";
+import "./discovertheworld";
 import "./drop";
 import "./example";
 import "./materialize";
