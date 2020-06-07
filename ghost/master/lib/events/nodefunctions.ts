@@ -42,12 +42,11 @@ events.OnOpenBrowser = async () => {
             }, 5000);
           }
         }),
-        take(urls.length)).toPromise();
-        // .subscribe((data) => data, (err) => err);
+        take(urls.length)).subscribe((data) => data, (err) => err);
 
-    return r`\0\s[2]どうかな？上手く表示出来てるといいけど・・・。\e`;
+    return r`\0\s[1]どうかな？上手く表示出来てるといいけど・・・。\e`;
   } catch (e) {
-    return r`\0\s[5]エラーが発生したよ!読み上げるね。\n`
+    return r`\0\s[2]エラーが発生したみたいだよ。\n`
         + r`${e}`;
   }
 };

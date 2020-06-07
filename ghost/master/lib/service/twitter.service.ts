@@ -6,9 +6,8 @@ const client = new Twitter(TwitterDevAccountSecret);
 
 export class TwitterService {
 
-  public static getJapaneseTwitterTrends() {
+  public static getTwitterTrends(woeId: string) {
     // 地域を指定
-    const woeId = "23424856";
     return new Promise((resolve, reject) => {
       const params = {
         id: woeId,
