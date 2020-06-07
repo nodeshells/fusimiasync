@@ -17,7 +17,7 @@ npm install
 - WatsonのText to Speechを使用した音声合成のデモ<br>
 
 ## イメージ画像
-![節美亜シンク](https://i.imgur.com/ptKVmqG.png?1 "サンプル")
+![fusimiasync1](https://user-images.githubusercontent.com/25732536/83973821-d6263880-a923-11ea-910e-33dd2c434ff4.JPG)
 
 ## 使用しているライブラリやサービス
 - 伺か関連
