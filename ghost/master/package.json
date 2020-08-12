@@ -24,6 +24,7 @@
     "shiorack": "^2.2.0",
     "ts-node": "^8.10.1",
     "twitter": "^1.7.1",
+    "typedoc": "^0.18.0",
     "typescript": "^3.1.6"
   },
   "devDependencies": {
