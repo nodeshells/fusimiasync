@@ -1,5 +1,5 @@
 
-import {TwitterService} from "../service/twitter.service";
+import {TwitterService} from "../service/Twitter.service";
 import {events} from "../shioriBuilder";
 import {r} from "../utils";
 
@@ -20,7 +20,7 @@ events.GetTwitterTrends = async () => {
            r`\n[half]` +
            r`\__q\w5\s[1]こんな感じでよかったですか？`;
   } catch (e) {
-    return r`\0\s[2]わわ...。\w5エラーが発生したみたいだよ。\n` +
+    return r`\0\s[2]わわ...。\w5エラーが発生したみたいです。\n` +
            r`${e}`;
   }
 };
