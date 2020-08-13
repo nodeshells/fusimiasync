@@ -1,4 +1,4 @@
 charset,UTF-8
 type,ghost
 name,節美亜シンク
-director,fisimiasync
+directory,fisimiasync

@@ -3,7 +3,8 @@
   "scripts": {
     "watch": "tsc -w",
     "nar": "npm-run-all updates nar:make",
-    "nar:make": "mknar ../../ ../../ghost.nar",
+    "nar:docker": "docker-compose up",
+    "nar:make": "mknar ../../ ../../ghost.nar sjis",
     "updates": "npm-run-all exclude-dev updates:make",
     "updates:make": "mkupdates ../../",
     "exclude-dev": "node tools/excludeDevelopmentPackages.js",

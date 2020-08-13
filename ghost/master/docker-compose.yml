@@ -1,0 +1,8 @@
+version: '3'
+services:
+  nar_build:
+    image: node
+    working_dir: /home/node/ghost/master
+    volumes:
+      - ../../:/home/node
+    command: "npm run nar"
